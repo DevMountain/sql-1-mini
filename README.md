@@ -49,7 +49,8 @@ Use [www.sqlteaching.com](http://www.sqlteaching.com/) or [sqlbolt.com](http://s
 7. Find all the customers that live in California, Washington, Utah, Florida, or Arizona (Use IN keyword)
 8. Insert an artist to the database
 9. Insert yourself as a customer to the database
-10. You can either continue exploring this dataset or look into setting up postgres on your local machine.
+10. Find a list of all Playlists that start with `Classical` 
+11. You can either continue exploring this dataset or look into setting up postgres on your local machine.
 
 
 
