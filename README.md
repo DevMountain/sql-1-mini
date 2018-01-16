@@ -1,41 +1,89 @@
-# simple-sql-queries
+<img src="https://devmounta.in/img/logowhiteblue.png" width="250" align="right">
 
-For today we will be practicing inserting and querying data using SQL.
+# Project Summary
 
-Here is a website that will let us write queries to interact with some data.  [http://jxs.me/chinook-web/](http://jxs.me/chinook-web/)
+In this project, we'll be practicing inserting and querying data using SQL. We'll make use of this online tool called <a href="http://jxs.me/chinook-web/">Chinook</a>.
 
-On the left are the Tables with their fields.  The right is where we will be writing our queries.  The bottom is where we will see our results.  
+On the left are the Tables with their fields. The right is where we will be writing our queries. The bottom is where we will see our results.  
 
-Let's start with grabbing some data from the Artist table.
+## Step 1
 
+### Instructions
+
+SELECT all the data from the Artist table.
+
+### Solution
+
+<details>
+
+<summary> <code> SQL Solution </code> </summary>
+
+```sql
+SELECT * FROM Artist;
 ```
-SELECT *
-FROM Artist
-```
 
-This will select all the records and fields from the Artist table.  
+</details>
 
-If we don't want to pull all the fields, we can be more specific in our SELECT statement
+## Step 2
 
-```
+### Instructions
+
+SELECT the FirstName, LastName, and Country from the Employee table.
+
+### Solution
+
+<details>
+
+<summary> <code> SQL Solution </code> </summary>
+
+```sql
 SELECT FirstName, LastName, Country
-FROM Employee
+FROM Employee;
 ```
 
-If we want to put criteria on which records we pull, we use the WHERE statement.
+</details>
 
-```
+## Step 3
+
+### Instructions
+
+SELECT the Name, Composer, and Milliseconds FROM the Track table WHERE the Milliseconds are greator than 299000.
+
+### Solution
+
+<details>
+
+<summary> <code> SQL Solution </code> </summary>
+
+```sql
 SELECT Name, Composer, Milliseconds
 FROM Track
-WHERE Milliseconds > 299000
+WHERE Milliseconds > 299000;
 ```
-Now instead of displaying all the tracks that are over 299 seconds, we could us the count function to return only how many there are.  
 
-```
+</details>
+
+## Step 4
+
+### Instructions
+
+SELECT the count FROM the Track table WHERE the Milliseconds are greator than 299000.
+
+### Solution
+
+<details>
+
+<summary> <code> SQL Solution </code> </summary>
+
+```sql
 SELECT count(*)
 FROM Track
-WHERE Milliseconds > 299000
+WHERE Milliseconds > 299000;
 ```
+
+</details>
+
+## Black Diamond 
 
 Now that we have some basic query examples.  Let's try doing some more complicated ones.
 Use [www.sqlteaching.com](http://www.sqlteaching.com/) or [sqlbolt.com](http://sqlbolt.com/) as resources for the missing keywords you'll need.
@@ -52,8 +100,14 @@ Use [www.sqlteaching.com](http://www.sqlteaching.com/) or [sqlbolt.com](http://s
 10. Find a list of all Playlists that start with `Classical` 
 11. You can either continue exploring this dataset or look into setting up postgres on your local machine.
 
+## Contributions
 
+If you see a problem or a typo, please fork, make the necessary changes, and create a pull request so we can review your changes and merge them into the master repo and branch.
 
 ## Copyright
 
-© DevMountain LLC, 2016. Unauthorized use and/or duplication of this material without express and written permission from DevMountain, LLC is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to DevMountain with appropriate and specific direction to the original content.
+© DevMountain LLC, 2017. Unauthorized use and/or duplication of this material without express and written permission from DevMountain, LLC is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to DevMountain with appropriate and specific direction to the original content.
+
+<p align="center">
+<img src="https://devmounta.in/img/logowhiteblue.png" width="250">
+</p>
