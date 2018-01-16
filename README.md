@@ -10,7 +10,7 @@ On the left are the Tables with their fields. The right is where we will be writ
 
 ### Instructions
 
-SELECT all the data from the Artist table.
+SELECT all the data FROM the Artist table.
 
 ### Solution
 
@@ -28,7 +28,7 @@ SELECT * FROM Artist;
 
 ### Instructions
 
-SELECT the FirstName, LastName, and Country from the Employee table.
+SELECT the FirstName, LastName, and Country FROM the Employee table.
 
 ### Solution
 
