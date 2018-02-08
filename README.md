@@ -47,7 +47,7 @@ FROM Employee;
 
 ### Instructions
 
-SELECT the Name, Composer, and Milliseconds FROM the Track table WHERE the Milliseconds are greator than 299000.
+SELECT the Name, Composer, and Milliseconds FROM the Track table WHERE the Milliseconds are greater than 299000.
 
 ### Solution
 
@@ -67,7 +67,7 @@ WHERE Milliseconds > 299000;
 
 ### Instructions
 
-SELECT the count FROM the Track table WHERE the Milliseconds are greator than 299000.
+SELECT the count FROM the Track table WHERE the Milliseconds are greater than 299000.
 
 ### Solution
 
