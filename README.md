@@ -10,7 +10,7 @@ On the left are the Tables with their fields. The right is where we will be writ
 
 ### Instructions
 
-SELECT all the data FROM the Artist table.
+SELECT all the data FROM the artist table.
 
 ### Solution
 
@@ -19,7 +19,7 @@ SELECT all the data FROM the Artist table.
 <summary> <code> SQL Solution </code> </summary>
 
 ```sql
-SELECT * FROM Artist;
+SELECT * FROM artist;
 ```
 
 </details>
@@ -28,7 +28,7 @@ SELECT * FROM Artist;
 
 ### Instructions
 
-SELECT the FirstName, LastName, and Country FROM the Employee table.
+SELECT the first_name, last_name, and country FROM the employee table.
 
 ### Solution
 
@@ -37,8 +37,8 @@ SELECT the FirstName, LastName, and Country FROM the Employee table.
 <summary> <code> SQL Solution </code> </summary>
 
 ```sql
-SELECT FirstName, LastName, Country
-FROM Employee;
+SELECT first_name, last_name, country
+FROM employee;
 ```
 
 </details>
@@ -47,7 +47,7 @@ FROM Employee;
 
 ### Instructions
 
-SELECT the Name, Composer, and Milliseconds FROM the Track table WHERE the Milliseconds are greater than 299000.
+SELECT the name, composer, and milliseconds FROM the track table WHERE the milliseconds are greater than 299000.
 
 ### Solution
 
@@ -56,9 +56,9 @@ SELECT the Name, Composer, and Milliseconds FROM the Track table WHERE the Milli
 <summary> <code> SQL Solution </code> </summary>
 
 ```sql
-SELECT Name, Composer, Milliseconds
-FROM Track
-WHERE Milliseconds > 299000;
+SELECT name, composer, milliseconds
+FROM track
+WHERE milliseconds > 299000;
 ```
 
 </details>
@@ -67,7 +67,7 @@ WHERE Milliseconds > 299000;
 
 ### Instructions
 
-SELECT the count FROM the Track table WHERE the Milliseconds are greater than 299000.
+SELECT the count FROM the track table WHERE the milliseconds are greater than 299000.
 
 ### Solution
 
@@ -77,8 +77,8 @@ SELECT the count FROM the Track table WHERE the Milliseconds are greater than 29
 
 ```sql
 SELECT count(*)
-FROM Track
-WHERE Milliseconds > 299000;
+FROM track
+WHERE milliseconds > 299000;
 ```
 
 </details>
@@ -88,7 +88,7 @@ WHERE Milliseconds > 299000;
 Now that we have some basic query examples.  Let's try doing some more complicated ones.
 Use [www.sqlteaching.com](http://www.sqlteaching.com/) or [sqlbolt.com](http://sqlbolt.com/) as resources for the missing keywords you'll need.
 
-1. Find the average length of all tracks in Milliseconds
+1. Find the average length of all tracks in milliseconds
 2. Find the number of invoices in the USA
 3. Make a list of all the First Names of Customers that contain an 'a'
 4. Make a list of the 10 longest tracks
